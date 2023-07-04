@@ -9,5 +9,9 @@ int main(int ac, char **av, char **envt)
 	{
 		prompt_user(av, envt);
 	}
+	/*if (ac > 1)
+	{
+		prompt_user2(av, envt);
+	}*/
 	return (0);
 }
