@@ -8,6 +8,8 @@
 #include <sys/wait.h>
 
 void prompt_user(char **av, char **envt);
+void prompt_user2(char **av, char **envt);
 int main(int ac, char **av, char **envt);
+char *handl_getline();
 
 #endif
